@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+.head{
+        display: grid;
+        grid-template-areas:
+        'div1 div1 div1 div1 div1 div1'}
+.tiles{
+        grid-area: div1;
+        font-family: 'Oswald', sans-serif;
+        font-size: 22px;
+        text-align: left;
+}
+.tiles a{
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        
+        text-align: end;
+        color: rgba(255, 255, 255, 0.767);
+}
+.rest:hover
+ {       background-color: red;
+        font-size: 22px;
+}
